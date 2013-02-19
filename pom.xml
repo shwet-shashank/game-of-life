@@ -310,9 +310,9 @@
         </profile>
         <profile>
             <id>maven3</id>
-            <activation>
+            <!--<activation>
                 <activeByDefault>true</activeByDefault>
-            </activation>
+            </activation>-->
             <build>
                 <plugins>
                     <plugin>
@@ -429,6 +429,9 @@
         </profile>
         <profile>
             <id>maven2</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
             <build>
                 <plugins>
                     <plugin>
